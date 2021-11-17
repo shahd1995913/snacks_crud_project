@@ -8,6 +8,6 @@ class SnacksConfig(AppConfig):
 
      name = 'snacks'
    
-    default_auto_field = 'django.db.models.BigAutoField'
+     default_auto_field = 'django.db.models.BigAutoField'
    
    
