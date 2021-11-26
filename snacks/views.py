@@ -25,7 +25,7 @@ class SnackUpdateView(UpdateView) :
  
     model = Snack
  
-    fields = ["name", "purchaser", "description"]
+    fields = ["Title", "Purchaser", "Description"]
 
 
 class SnackCreateView(CreateView) :
@@ -34,8 +34,7 @@ class SnackCreateView(CreateView) :
  
     model = Snack
  
-    fields = ["name", "purchaser", "description"]
-
+    fields =  ["Title", "Purchaser", "Description"]
 
 class SnackDeleteView(DeleteView) :
 

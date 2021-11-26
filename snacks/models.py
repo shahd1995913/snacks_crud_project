@@ -17,6 +17,7 @@ class Snack(models.Model) :
 
     description = models.TextField(default='')
     
+    
     def get_absolute_url(self):
     
    
